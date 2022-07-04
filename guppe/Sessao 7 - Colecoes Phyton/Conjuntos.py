@@ -13,8 +13,8 @@ Os conjuntos são referenciados com chaves {}
 Diferença entre conjuntos (sets) e dicionários (maps):
     - Um dicionário tem chave/valor;
     - Um conjunto tem valor;
-"""
 
+-------------------------------------------
 # Definindo um conjunto
 
 # Forma 1
@@ -32,3 +32,34 @@ s = {1, 2, 3, 3, 4, 5, 5, 6}
 
 print(s)
 print(type(s))
+
+-------------------------------------------
+# Não temos valores duplicados e nem ordem nos valores
+
+tupla = (99, 2, 23, 12, 1, 44, 5)
+print(tupla)
+
+lista = [99, 2, 23, 12, 1, 44, 5]
+print(lista)
+
+dicionario = {}.fromkeys(lista, 'dict')
+print(dicionario)
+
+conjunto = {99, 2, 23, 12, 1, 44, 5}
+print(conjunto)
+-------------------------------------------
+
+-------------------------------------------
+
+-------------------------------------------
+
+-------------------------------------------
+
+-------------------------------------------
+
+-------------------------------------------
+
+-------------------------------------------
+"""
+
+#
